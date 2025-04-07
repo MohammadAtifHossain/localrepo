@@ -1,0 +1,280 @@
+/* We need a one crome extentation name is (What font) this extentation will help us to find the font */
+
+/* This font is import by Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/Images/bg.jpg);
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.box {
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 50px;
+}
+
+.main img {
+    width: 120px;
+    position: relative;
+    z-index: 20;
+}
+
+.main .btn {
+    position: relative;
+    z-index: 20;
+}
+
+.hero {
+    /* This gray line or say Separetor is be perfect, thats why i do the nav bar 50px - to hero sation or say background opacity hight 100% */
+    height: calc(100% - 50px);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*If I do (Position Relative) so the hero section text is over the black background opacity*/
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+/* I used (>) this sign in ,hero just becaus the div place holder text is not cud be big */
+.hero> :nth-child(1) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+/*This is a Separetor */
+.line {
+    height: 5px;
+    background-color: rgb(77, 76, 76);
+    /* box-shadow: rgba(255, 255, 255, 0.8) 0 0 80px 6px; */
+
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 7px 17px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(139, 4, 4, 0.757);
+}
+
+.btn-light {
+    background-color: #ffffff36;
+    border: 1px solid rgb(96, 94, 94);
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-light:hover {
+    background-color: #ffffff5d;
+    border: 1px solid rgb(96, 94, 94);
+}
+
+/* .btn-small {
+
+} */
+
+.started {
+    display: flex;
+    gap: 14px;
+    z-index: 100;
+}
+
+.started input {
+    background-color: #ffffff36;
+    border: 1px solid white;
+    padding: 0px 200px 0px 15px;
+    color: white;
+    z-index: 10;
+}
+
+::placeholder {
+    color: rgba(228, 223, 223, 0.799);
+    opacity: 1;
+    /* Firefox */
+}
+
+.btn-big {
+    padding: 11px 40px;
+    font-size: x-large;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    /* flex-wrap: wrap; */ 
+    /* this flex-wrap is comment out just for the content is note brake in the .first */
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    gap: 15px;
+}
+
+section h1 {
+    font-size: 45px;
+    font-weight: bolder;
+
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 40vw;
+    position: relative;
+
+}
+
+.secimg video {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    width: 35vw;
+}
+
+.thirdv video {
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    width: 35vw;
+}
+
+section h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 34px 0px;
+}
+
+.flaxbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    max-width: 60vw;
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.flaxbox:hover {
+    transition: margin-right 1s;
+    background-color: rgb(152, 152, 152);
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+
+.footer-head, .btn-bottom{
+    max-width: 60vw;
+    margin: auto;
+    padding: 40px;
+}
+
+.footer-containt{
+    max-width: 60vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copy{
+    color: gray;
+    padding: 30px 0px;
+}
+
+a{
+    color: gray;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+
+

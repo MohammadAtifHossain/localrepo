@@ -1,0 +1,76 @@
+@media only screen and (max-width: 768px) {
+
+    /* I used (>) this sign in ,hero just becaus the div place holder text is not cud be big */
+.hero> :nth-child(1) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 10px;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 8px;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-big {
+    padding: 5px 20px;
+    font-size: small;
+}
+
+.started input {
+    background-color: #ffffff36;
+    border: 1px solid white;
+    padding: 0px 73px 0px 15px;
+}
+
+
+
+
+
+    .first {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        max-width: 70vw;
+        color: white;
+        flex-wrap: wrap; 
+        }
+
+        section h1 {
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 15px;
+        
+        }
+
+        p{
+            font-size: x-small;
+        }
+  }
